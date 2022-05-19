@@ -2,6 +2,9 @@
 
 :root {
     --primary-color: #FF9F45;
+    --secondary-color: #be6a1c;
+    --dark-color: #8f4b0b;
+    --light-color: #f4f4f4;
 }
 
 * {
@@ -164,4 +167,9 @@ img {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Cloud */
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
 }
