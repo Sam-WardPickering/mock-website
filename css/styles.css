@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #FF9F45;
-    --secondary-color: #be6a1c;
-    --dark-color: #8f4b0b;
+    --secondary-color: #FF7A00;
+    --dark-color: #FF7A00;
     --light-color: #f4f4f4;
 }
 
@@ -199,4 +199,19 @@ img {
 
 .languages .card:hover {
     transform: translateY(-15px);
+}
+
+/* Footer */
+.footer .social a {
+    margin: 0 10px;
+}
+
+/* Media Query - Tablets & Under */
+@media(max-width: 768px) {
+
+}
+
+/* Media Query - Mobile */
+@media (max-width: 500px) {
+    
 }
